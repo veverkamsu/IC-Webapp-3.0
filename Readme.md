@@ -140,6 +140,6 @@ Après avoir crée le Dockerfile qui va bien, nous allons créer le JenkinsFile 
 **NB** : nous devrons utiliser les mêmes mécanismes afin de récupérer la valeur de la variable version dans le fichier releases.txt qui devra être utilisé comme tag sur votre image.
 
 
-### **e. Test de fonctionnement et rapport final**
+### **e. Test de fonctionnement**
 
-Nous allons lancer l’exécution de notre pipeline manuellement pour une première fois, ensuite automatiquement après modification de votre fichier releases.txt (version : 1.1). Vérifions que toutes les applis sont déployées et fonctionnent correctement.
+Nous allons lancer l’exécution de notre pipeline manuellement pour une première fois, ensuite automatiquement après modification de notre fichier releases.txt (version : 1.1). Vérifions que toutes les applis sont déployées et fonctionnent correctement.
