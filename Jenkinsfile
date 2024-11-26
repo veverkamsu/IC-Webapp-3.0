@@ -1,5 +1,5 @@
 /* import shared library. */
-@Library('ulrich-shared-library')_
+@Library('herve-shared-library')_
 
 pipeline {
     environment {
