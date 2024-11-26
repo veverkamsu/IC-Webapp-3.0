@@ -1,6 +1,3 @@
-# Etapes à suivre
-Ce petit tuto explique progressivement  comment mettre en oeuvre le prpojet fil rouge
-
 ## Prérequis
 
 - Avoir **Virtualbox** et **Vagrant** sur son poste de travail afin de provisionner le lab en local
@@ -17,12 +14,7 @@ Ce petit tuto explique progressivement  comment mettre en oeuvre le prpojet fil 
 
 #### Creation d'un répertoire de travail
 Sur votre poste de travail, créer un répertoire de travail et déplacer vous dans ce répertoire.
-Donnez lui le nom qui vous plait (**Projet fil rouge** par exemple)
 
-#### Téléchargement du vagrantfile et ses dépendances dans le répertoire de travail
-Les vagrantfiles Eazytraining se trouvent [ici](https://github.com/diranetafen/cursus-devops/tree/master/vagrant)
-
-Prendre [celui ci](https://github.com/diranetafen/cursus-devops/tree/master/vagrant/minikube) de préférence
 
 #### Ouvrir un terminal (Powershell) dans ce répertoire de travail et déployer Minikube dans virtualbox
 - Shift + click droit sur le répertoire
@@ -187,7 +179,7 @@ Le pipeline utilise une librairie partagée nommée [ulrich-shared-library](http
 
 
 ### Ameliorations
-- Utilisation du plugin [Workspace Cleanup](https://plugins.jenkins.io/ws-cleanup/) pour nettoyer le workspac
+- Utilisation du plugin [Workspace Cleanup](https://plugins.jenkins.io/ws-cleanup/) pour nettoyer le workspace
 - Automatisation de la mise en place d'une authen par clés publique/prive entre les serveurs de prod. [Exemple](https://linuxtechlab.com/how-to-use-ssh-command-with-password-in-single-line/)
 - Mise des roles ansible sur un repos Git et install de ces roles via Ansible-Galaxy
 - Création d'un fichier  ansible contenant les secret (mdp du user vagrant), fichier à vaulter biensûr
