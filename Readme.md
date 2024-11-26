@@ -1,8 +1,8 @@
-﻿# PROJET FINAL DEVOPS. 
+﻿# PROJET DEVOPS. 
 
-## **1) Introduction**
+## **1) Contexte**
 
-La société **IC GROUP** dans laquelle vous travaillez en tant qu’ingénieur Devops souhaite mettre sur pied un site web vitrine devant permettre d’accéder à ses 02 applications phares qui sont :  
+En tant qu’ingénieur Devops je souhaite mettre sur pied un site web vitrine devant permettre d’accéder à 02 applications phares qui sont :  
 
 1) Odoo et 
 1) pgAdmin 
@@ -146,17 +146,3 @@ Après avoir crée le Dockerfile qui va bien, Vous devrez créer le JenkinsFile 
 ### **e. Test de fonctionnement et rapport final**
 
 Lancez l’exécution de votre pipeline manuellement pour une première fois, ensuite automatiquement après modification de votre fichier releases.txt (version : 1.1). Vérifiez que toutes les applis sont déployées et fonctionnent correctement. N’hésitez pas à prendre des captures d’écran le plus possible afin de consolider votre travail dans un rapport final qui présentera dans les moindre détails ce que vous avez fait.
-
-
-
- ## **4) ANNEXE** 
-
-Ci-dessous un exemple de description des qualifications souhaitées pour un poste de Devops 
-
-![](sources/app/images/offre_emploi.jpeg)
-
-**NB** : Bien vouloir preter attention aux qualités encadrées en jaune ci-dessus, vous vous rendez compte en effet que maitriser les technologies seulement ne suffit pas, il faut en plus de ca avoir un esprit très créatif, de très bonnes capacités redactionnelles pour rediger vos différents rapports et également des qualités de pédagogue qui vous aideront à parfaire les explications de vos actions dans vos différents rapports afin de faciliter leur compréhension. 
-
-Compte tenu de tout cela, je vous invite tous à donner l’impotance à ce volet « rapport » de votre projet final, car c’est également une partie très importante qui devra pouvoir décrire le contenu de l’ensemble de votre travail.  
-
-Merci de le rédiger correctement avec les captures d’écran, commentaires et explications qui vont bien car cette partie sera prise en compte dans votre note finale.
